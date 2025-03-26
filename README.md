@@ -15,7 +15,6 @@ Este proyecto trata de un sistema de detección en vivo de personas fumando, par
 # Arquitectura
 
 ![Proceso](recursos/diagrama.png)
-(imagen sin terminar!!!!!!!!!!!)
 
 # Proceso
 
