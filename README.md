@@ -40,7 +40,8 @@ La distribución del dataset:
 ---
 ## Implementación de modelos
 
-Los modelos entrenados fueron:
+Esta es la precisión de los modelos entrenados en este proyecto.
+![Proceso](recursos/precision.png)
 
 ## SVC:
 Se realizo la conversión a escala de grises (1 canal), se realizo un redimencionamiento a 250 x 250 píxeles, aplanamiento a valores numéricos, se realizo un etiquetado automático (0 = no fumando, 1 = fumando), se realizo la normalización con StandarScaler, se realizo la reducción dimensional con PCA de 90 componentes (reducción de 62,500 a 90 features).
@@ -84,6 +85,8 @@ Se realizo la conversión a escala de grises (1 canal), se realizo un redimencio
 - Val Loss: ~0.45
 
 ## YOLOv8:
+
+![proceso](recursos/f1.jpeg)![proceso](recursos/pc.jpeg)![proceso](recursos/pr.jpeg)![proceso](recursos/rc.jpeg)
 
 ### Configuración:
 
@@ -143,12 +146,12 @@ Se realizo la conversión a escala de grises (1 canal), se realizo un redimencio
 
 # Funcionalidades
 
-Se desarrolló un progam que enviará por medio de Whatsapp una notificación al usuario cuando se detecte que posiblemente alguien esté fumando.
+Se desarrolló un algortimo que enviará por medio de Whatsapp una notificación al usuario cuando se detecte que posiblemente alguien esté fumando. Se utilizaron librerias como opnCV, pywhatkit
 
 
 # EstadoDelProyecto
 
-Casi finalizado. Pequeños retoques son necesarios.
+Finalizado. (en 2 días)
 
 ## Agradecimientos
 
