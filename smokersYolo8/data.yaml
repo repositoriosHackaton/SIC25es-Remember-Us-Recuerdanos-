@@ -1,0 +1,12 @@
+train: ../train/images
+val: ../valid/images
+
+nc: 3
+names: ['cigarro', 'fumador', 'persona']
+
+roboflow:
+  workspace: smokers
+  project: smokers-nf62j
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/smokers/smokers-nf62j/dataset/1
