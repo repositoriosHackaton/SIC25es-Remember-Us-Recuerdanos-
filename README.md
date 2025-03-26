@@ -85,7 +85,7 @@ Se realizo la conversión a escala de grises (1 canal), se realizo un redimencio
 - Val Loss: ~0.45
 
 ## YOLOv8:
-
+Estas son las metricas resultantes del modelo YOLOv8 entrenado en este proyecto
 ![proceso](recursos/f1.jpeg)![proceso](recursos/pc.jpeg)![proceso](recursos/pr.jpeg)![proceso](recursos/rc.jpeg)
 
 ### Configuración:
