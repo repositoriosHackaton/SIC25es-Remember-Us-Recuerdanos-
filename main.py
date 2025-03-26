@@ -9,7 +9,7 @@ cap.set(3, 1280)
 cap.set(4, 720)
 
 # model
-model = YOLO("bestYolo8s100e.pt")
+model = YOLO("recursos/bestYolo8s100e.pt")
 
 # object classes
 classNames = ['cigarro', 'fumador', 'persona']
