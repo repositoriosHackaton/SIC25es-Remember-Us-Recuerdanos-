@@ -1,6 +1,7 @@
 # SIC25es-Remember-Us-Recuerdanos-
 ---
-Este proyecto trata de un sistema de detección en vivo de personas fumando, para eso, entrenamos distintos modelos de vision computarizada y los unimos con un sistema de visión en vivo. El proyecto tiene el fin de poder ser implemntado por negocios/instituciones que requieran o prohiban este tipo de actividad dentro de sus espacios.
+Este proyecto trata de un sistema de detección en vivo de personas fumando, para eso, entrenamos distintos modelos de vision computarizada y los unimos con un sistema de visión en vivo.
+ El proyecto tiene el fin detectar en tiempo real si una persona está fumando en áreas donde está prohibido, como gasolineras, fábricas con materiales inflamables o espacios públicos sensibles.
 
 ## Tabla de contenidos
 
