@@ -27,4 +27,7 @@ def send_smg(msg="🚭 Alerta: Se detectó a alguien fumando!", cel="70812048", 
     pyautogui.press("enter")  # Simular "Enter" para enviarlo
     print("Mensaje enviado con éxito")
 
+    time.sleep(2)  # Esperar a que se cierre la ventana de WhatsApp
+    pyautogui.hotkey('ctrl', 'w')  # Cerrar la ventana de WhatsApp
+
     last_sent_time = time.time()  # Actualizar el tiempo del último mensaje enviado
